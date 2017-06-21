@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQQ-Na-tJ1">
-                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <rect key="frame" x="37.5" y="159" width="300" height="300"/>
                                 <color key="backgroundColor" red="0.58693229970063943" green="0.81012799804922175" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="lQQ-Na-tJ1" secondAttribute="height" multiplier="1:1" id="5zn-oz-EoI"/>
@@ -39,6 +39,7 @@
                             <constraint firstItem="lQQ-Na-tJ1" firstAttribute="height" secondItem="tsR-hK-woN" secondAttribute="height" multiplier="0.8" priority="750" id="Pg1-hf-GtM"/>
                             <constraint firstItem="lQQ-Na-tJ1" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="dUc-Zo-CAC"/>
                             <constraint firstItem="lQQ-Na-tJ1" firstAttribute="width" relation="lessThanOrEqual" secondItem="tsR-hK-woN" secondAttribute="width" multiplier="0.8" id="w9P-4y-T6k"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="lQQ-Na-tJ1" secondAttribute="centerY" multiplier="2" id="yDk-yo-Yck"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Simulation" image="first" id="acW-dT-cKf"/>
